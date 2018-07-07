@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build --public-url . index.html"
+  },
+  "devDependencies": {
+    "@types/ol": "4.6.2",
+    "parcel-bundler": "1.9.4"
+  },
+  "dependencies": {
+    "ol": "5.0.2"
+  }
+}
